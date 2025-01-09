@@ -17,4 +17,38 @@
   .intro--large {
     font-size: 50px;
   }
+  .about-me-container {
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    max-width: 368px;
+    max-height: 1281px;
+    padding: 0;
+    margin: 0;
+  }
+  .about-me--title {
+    margin-top: 0;
+    margin-bottom: 60px;
+  }
+  .about-me--pic {
+    width: 70%;
+    height: 20%;
+  }
+  p {
+    font-size: large;
+    line-height: 1.5;
+  }
+  .skills-container {
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    max-width: 366px;
+    max-height: 710px;
+    padding: 0;
+    margin: 0;
+  }
 }
