@@ -29,7 +29,7 @@
         max-width: 368px;
         max-height: 1281px;
         padding: 0;
-        margin: 0;
+        margin-bottom: 100px;
     }
     .about-me{
         &--title{
@@ -39,21 +39,45 @@
         &--pic {
             width: 70%;
             height: 20%;
+        }
+        &--para {
+            p {
+                font-size: large;
+                line-height: 1.5;
+                margin-bottom: 80px;
+            }
         }     
     }
-        p {
-            font-size: large;
-            line-height: 1.5;
-        }
         .skills-container{
                 border: 2px solid black;
-                    display: flex;
-                    justify-content: center;
-                    align-items: center;
-                    flex-direction: column;
-                    max-width: 366px;
-                    max-height: 710px;
-                    padding: 0;
-                    margin: 0;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+                max-width: 366px;
+                max-height: 710px;
+                padding: 0;
+                margin: 0;
+        }
+        .skills {
+            &--title {
+                margin:40px 20px;
+            }
+            &--para {
+                margin: 10px 20px;
+                p {
+                    margin-bottom: 40px;
+                }
+            }
+            &--logos {
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: space-around;
+                align-content: space-between;
+                gap: 40px;
+                margin: 30px;
+                img{
+                }
+            }
         }
 }
