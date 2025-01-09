@@ -8,7 +8,7 @@
     }
     .intro-container{
         max-width: 326px;
-        height: 516px;
+        // height: 516px;
         margin: 82px 51px;
         border: 2px solid black;
     }
@@ -27,7 +27,7 @@
         align-items: center;
         flex-direction: column;
         max-width: 368px;
-        max-height: 1281px;
+        // max-height: 1281px;
         padding: 0;
         margin-bottom: 100px;
     }
@@ -55,9 +55,9 @@
                 align-items: center;
                 flex-direction: column;
                 max-width: 366px;
-                max-height: 710px;
+                // max-height: 710px;
                 padding: 0;
-                margin: 0;
+                margin-bottom: 100px;
         }
         .skills {
             &--title {
@@ -76,8 +76,34 @@
                 align-content: space-between;
                 gap: 40px;
                 margin: 30px;
-                img{
+            }
+        }
+        .projects-container {
+            border: 2px solid black;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            max-width: 366px;
+            // max-height: 710px;
+            padding: 0;
+            margin-bottom: 100px;   
+        }
+        .projects {
+            &--card{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                max-width: 370px ;
+                &__pic{
+                    display: flex;
+                    justify-content: center;
+                    background-color: #B4F1F1;
+                    img{
+                        max-width: 70%;
+                    }
                 }
             }
         }
+
 }
