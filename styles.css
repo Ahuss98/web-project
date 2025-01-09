@@ -1,3 +1,8 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
 @media only screen and (max-width: 480px) {
   .main-container {
     display: flex;
@@ -86,8 +91,56 @@
     display: flex;
     justify-content: center;
     background-color: #B4F1F1;
+    padding-top: 50px;
   }
   .projects--card__pic img {
     max-width: 70%;
+  }
+  .projects--card__buttons {
+    display: flex;
+    gap: 10px;
+    justify-content: flex-start;
+  }
+  .projects--card__buttons button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: white;
+    color: black;
+    cursor: pointer;
+  }
+  .projects--card__buttons button:hover {
+    background-color: #f0f0f0;
+  }
+  .footer-container {
+    height: 200px;
+    background-color: black;
+    margin: 0;
+    color: white;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .footer--icons {
+    display: flex;
+    border: 2px solid black;
+    margin-bottom: 50px;
+    gap: 10px;
+  }
+  .footer--icons__box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: white;
+  }
+  .footer--icons img {
+    max-width: 30px;
   }
 }
