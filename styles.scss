@@ -1,10 +1,27 @@
 $slategrey : #708090;
+$navyblue : #000080;
+$paleaqua : #bcd4e6;
+$aqua : #A9F4DE;
+$navy : #005A5A;
 
+@mixin centerFlexColumn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+@mixin centerFlex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
+*{
+    font-family: 'Inter', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
 body{
     margin: 0;
     padding: 0;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
 }
 p{
     line-height: 1.75;
@@ -22,10 +39,7 @@ p{
         display: none;
     }
     .main-container{
-        display: flex;
-            justify-content: center;
-            align-items: center;
-            flex-direction: column;
+        @include centerFlexColumn
     }
     .intro {
         &--text{
@@ -38,10 +52,7 @@ p{
         }
     }
     .about-me-container {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
+        @include centerFlexColumn;
         max-width: 368px;
         padding: 0;
         margin-bottom: 100px;
@@ -64,13 +75,10 @@ p{
         }     
     }
         .skills-container{
-                display: flex;
-                justify-content: center;
-                align-items: center;
-                flex-direction: column;
-                max-width: 366px;
-                padding: 0;
-                margin-bottom: 100px;
+            @include centerFlexColumn;
+            max-width: 366px;
+            padding: 0;
+            margin-bottom: 100px;
         }
         .skills {
             &--title {
@@ -91,31 +99,25 @@ p{
                 margin: 25px;
             }
             &--logo-box{
-                display: flex;
-                flex-direction: column;
-                justify-content: center;
-                align-items: center;
+                @include centerFlexColumn;
             }
         }
         .projects-container {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            flex-direction: column;
+            @include centerFlexColumn;
             padding: 0;
             margin-bottom: 100px;   
         }
         .projects {
             &--card{
                 display: flex;
-                flex-direction: column;
                 justify-content: center;
+                flex-direction: column;
                 max-width: 370px ;
                 margin: 20px;
                 &__pic{
                     display: flex;
                     justify-content: center;
-                    background-color: #B4F1F1;
+                    background-color: $paleaqua;
                     padding-top: 50px;
                     img{
                         max-width: 70%;
@@ -137,7 +139,7 @@ p{
                         cursor: pointer;
                     }
                     button:hover {
-                        background-color: #f0f0f0;
+                        background-color: $paleaqua;
                     }
                 }
             }
@@ -148,10 +150,7 @@ p{
             margin: 0;
             color: white;
             padding: 20px;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
+            @include centerFlexColumn;
         }
         .footer{
             &--icons{ 
@@ -160,9 +159,7 @@ p{
                 margin-bottom: 50px;
                 gap: 10px;
                 &__box{
-                    display: flex;
-                    align-items: center;
-                    justify-content: center;
+                    @include centerFlex;
                     width: 50px;
                     height: 50px;
                     border-radius: 50%;
@@ -178,9 +175,7 @@ p{
 @media only screen and (min-width:481px){
     .nav-bar {
             width: 95vw;
-            display: flex;
-            justify-content: center;
-            align-items: center;
+            @include centerFlex;
             padding: 30px;
             &--container{
                 margin: 0px;
@@ -206,9 +201,7 @@ p{
                     margin: 0;
                     gap: 10px;
                     li {
-                        display: flex;
-                        align-items: center;
-                        justify-content: center;
+                        @include centerFlex;
                     }
                     li a{
                         color: black;
@@ -235,9 +228,7 @@ p{
             padding: 30px;
         }
         .intro-container{
-            display:flex;
-            justify-content: center;
-            align-items: center;
+            @include centerFlex;
             width: 100%;
             margin: 40px 0;
             

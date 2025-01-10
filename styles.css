@@ -1,7 +1,10 @@
+* {
+  font-family: "Inter", "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
 body {
   margin: 0;
   padding: 0;
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 
 p {
@@ -88,9 +91,9 @@ p {
 }
 .skills--logo-box {
   display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
 }
 
 .projects-container {
@@ -104,15 +107,15 @@ p {
 
 .projects--card {
   display: flex;
-  flex-direction: column;
   justify-content: center;
+  flex-direction: column;
   max-width: 370px;
   margin: 20px;
 }
 .projects--card__pic {
   display: flex;
   justify-content: center;
-  background-color: #B4F1F1;
+  background-color: #bcd4e6;
   padding-top: 50px;
 }
 .projects--card__pic img {
@@ -135,7 +138,7 @@ p {
   cursor: pointer;
 }
 .projects--card__buttons button:hover {
-  background-color: #f0f0f0;
+  background-color: #bcd4e6;
 }
 
 .footer-container {
@@ -145,9 +148,9 @@ p {
   color: white;
   padding: 20px;
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 .footer--icons {
@@ -173,8 +176,8 @@ p {
   .nav-bar {
     width: 95vw;
     display: flex;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
     padding: 30px;
   }
   .nav-bar--container {
@@ -230,8 +233,8 @@ p {
   }
   .intro-container {
     display: flex;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
     width: 100%;
     margin: 40px 0;
   }
