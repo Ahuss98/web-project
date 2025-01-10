@@ -86,7 +86,13 @@ p{
                 justify-content: space-around;
                 align-content: space-between;
                 gap: 40px;
-                margin: 30px;
+                margin: 25px;
+            }
+            &--logo-box{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
             }
         }
         .projects-container {
