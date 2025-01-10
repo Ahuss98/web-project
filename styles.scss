@@ -3,6 +3,8 @@ $navyblue : #000080;
 $paleaqua : #bcd4e6;
 $aqua : #A9F4DE;
 $navy : #005A5A;
+$mobile : 480px;
+$tablet : 768px;
 
 @mixin centerFlexColumn {
     display: flex;
@@ -26,7 +28,7 @@ body{
 p{
     line-height: 1.75;
 }
-@media only screen and (max-width:480px){
+@media only screen and (max-width:$mobile){
     .pp-img{
         display: none;
     }
@@ -172,7 +174,7 @@ p{
         }
 
 
-@media only screen and (min-width:481px){
+@media only screen and (min-width:($mobile + 1)){
     .nav-bar {
             width: 95vw;
             @include centerFlex;
@@ -330,7 +332,7 @@ p{
 
 }
 
-@media (max-width: 768px) {
+@media (max-width: $tablet) {
     .nav-bar--container {
         flex-direction: column;
 
