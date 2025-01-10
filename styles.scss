@@ -365,7 +365,7 @@ p{
             transform: translate(0, -11px) rotate(45deg);
         }
 
-        ul {
+        .nav-links {
             display: none;
             flex-direction: column;
             width: 100%;
@@ -373,11 +373,11 @@ p{
             text-align: center;
             background-color: white;
             padding: 20px 0;
-            border: 1px solid #ccc;
         }
-
-        ul.active {
+        
+        .nav-links.active {
             display: flex;
+            transition: 3.4s;
         }
     }
 }

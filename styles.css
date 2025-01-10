@@ -342,7 +342,7 @@ p {
   .nav-bar--container .change .bar3 {
     transform: translate(0, -11px) rotate(45deg);
   }
-  .nav-bar--container ul {
+  .nav-bar--container .nav-links {
     display: none;
     flex-direction: column;
     width: 100%;
@@ -350,9 +350,9 @@ p {
     text-align: center;
     background-color: white;
     padding: 20px 0;
-    border: 1px solid #ccc;
   }
-  .nav-bar--container ul.active {
+  .nav-bar--container .nav-links.active {
     display: flex;
+    transition: 3.4s;
   }
 }
