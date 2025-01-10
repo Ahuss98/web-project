@@ -5,11 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="./styles.css">
+
 </head>
 <body>
     <header class="nav-bar">
         <div class="nav-bar--container">
             <p>Ahmed Hussain</p>
+                    <button class="hamburger" onclick="myFunction(this)">
+                    <div class='bar1'></div>
+                    <div class="bar2"></div>
+                    <div class="bar3"></div>
+                    </button>
             <ul class="nav-links">
                 <li><a href="#home">Home</a></li>
                 <li><a href="#about">About</a></li>
@@ -38,19 +44,20 @@
             <div class="about-me about-me--title"><h2>About me</h2></div>
             <img class="about-me about-me--pic" src="./about-pic.png" alt="picture of me on a mountain"></a>
             <div class="about-me about-me--para">
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Velit maiores odio dolor odit! Amet, odio! Enim maiores ea nostrum asperiores dolore recusandae quos distinctio eum corporis eos. Provident, perspiciatis voluptas?
-                Expedita adipisci neque veniam quas ad. Molestias distinctio sequi possimus officia neque, autem ea rem error, ipsum explicabo culpa veritatis similique at provident hic quisquam nobis laboriosam aspernatur fuga sit!
-                Magnam, 
+                <p>A Career changer from a Personal Trainer and Amateur Fighter. I love to solve problems and take on challenges, currently chasing my Black Belt as a Software Developer.
+                    A highly resilient problem solver with a keen eye for detail and a passion for technology, currently undertaking the nology Tech Accelerator Programme as a software developer. 
                 <p>
-                    itaque dolorum molestias doloribus nam labore. Amet adipisci eos repudiandae, nemo a sequi iure quos fuga exercitationem temporibus sapiente consequuntur? Qui quasi reiciendis deserunt obcaecati delectus explicabo corrupti sequi.
-                    Voluptate, soluta asperiores? Unde, minima. Reprehenderit vel iure expedita debitis doloremque dolorum, unde voluptas soluta, ea corrupti consequatur possimus deserunt quam eligendi temporibus aliquid, mollitia voluptates consectetur minima. Expedita, voluptatum.</p>
+                    Having previousl;y complated a 13-week Full-stack bootcamp and working with private clients to deliver projects has made a solid Junior Software developer going into the Nology Programme futher equipping me with essential skills. 
+                    My adaptability and critical thinking excel in complex challenges, driven
+                    by software's potential for impact. I'm motivated to leverage technology for customer, business, and societal benefit,
+                    making problem-solving central to my journey.</p>
                 </p>
             </div>
         </div>
         <div class="skills-container">
             <div class="skills skills--title"><h2>Technical Skills</h2></div>
             <div class="skills skills--para"> 
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem officia culpa hic rerum eum commodi voluptate quo nesciunt aspernatur dicta .</p>
+                <p>these languages I have studied through sevral bootcamps and self teaching, and use to great effect.</p>
             </div>
             <div class="skills skills--logos">
                 <div class="skills skills-logo-box">
@@ -154,5 +161,10 @@
             <div class="footer--email">a.hmedhussain@hotmail.com</div>
         </div>
     </footer>
+<script>
+    function myFunction(x) {
+        x.classList.toggle("change");
+    }
+</script>
 </body>
 </html
