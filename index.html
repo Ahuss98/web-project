@@ -18,7 +18,7 @@
             </ul>
         </div>
     </header>
-    <main class="main-container">
+    <main class="main-container" id="home">
         <div class="intro-container">
             <div class="intro intro--text">
                 <div class="intro intro--text__small">Hey! I'm Ahmed Hussain</div>
@@ -30,11 +30,9 @@
                 <img class="pp-img" src="./assets/media/PP.png" alt="">
             </div>
         </div>
-        <div class="about-me-container">
+        <div class="about-me-container" id="about">
             <div class="about-me about-me--title"><h2>About me</h2></div>
-
-                <img class="about-me about-me--pic" src="./about-pic.png" alt="picture of me on a mountain"></a>
-
+            <img class="about-me about-me--pic" src="./about-pic.png" alt="picture of me on a mountain"></a>
             <div class="about-me about-me--para">
                 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Velit maiores odio dolor odit! Amet, odio! Enim maiores ea nostrum asperiores dolore recusandae quos distinctio eum corporis eos. Provident, perspiciatis voluptas?
                 Expedita adipisci neque veniam quas ad. Molestias distinctio sequi possimus officia neque, autem ea rem error, ipsum explicabo culpa veritatis similique at provident hic quisquam nobis laboriosam aspernatur fuga sit!
@@ -62,42 +60,45 @@
                 <img src="./assets/media/Logo.svg" alt="">
             </div>
         </div>
-        <div class="projects-container">
+        <div class="projects-container" id="projects">
             <div class="projects projects--title"> <h2>My Projects</h2></div>
-            <div class="projects projects--card">
-                <div class="projects projects--card__pic">
-                    <img src="./assets/media/FE-Project-pic.png" alt="">
+            <div class="projects-card-container">
+
+                <div class="projects projects--card">
+                    <div class="projects projects--card__pic">
+                        <img src="./assets/media/FE-Project-pic.png" alt="">
+                    </div>
+                    <div class="projects projects--card__lang">React</div>
+                    <div class="projects projects--card__name"><h3>News Network</h3></div>
+                    <div class="projects projects--card__para"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur impedit cum dolorum illo eaque! Harum facilis unde ab sapiente dolor?</p></div>
+                    <div class="projects projects--card__buttons">
+                        <button>Code &lt; / &gt;</button>
+                        <button>Preview &lt; / &gt;</button>
+                    </div>
                 </div>
-                <div class="projects projects--card__lang">React</div>
-                <div class="projects projects--card__name"><h3>News Network</h3></div>
-                <div class="projects projects--card__para"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur impedit cum dolorum illo eaque! Harum facilis unde ab sapiente dolor?</p></div>
-                <div class="projects projects--card__buttons">
-                    <button>Code &lt; / &gt;</button>
-                    <button>Preview &lt; / &gt;</button>
+                <div class="projects projects--card">
+                    <div class="projects projects--card__pic">
+                        <img src="./assets/media/FE-Project-pic.png" alt="">
+                    </div>
+                    <div class="projects projects--card__lang">React</div>
+                    <div class="projects projects--card__name"><h3>News Network</h3></div>
+                    <div class="projects projects--card__para"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur impedit cum dolorum illo eaque! Harum facilis unde ab sapiente dolor?</p></div>
+                    <div class="projects projects--card__buttons">
+                        <button>Code &lt; / &gt;</button>
+                        <button>Preview &lt; / &gt;</button>
+                    </div>
                 </div>
-            </div>
-            <div class="projects projects--card">
-                <div class="projects projects--card__pic">
-                    <img src="./assets/media/FE-Project-pic.png" alt="">
-                </div>
-                <div class="projects projects--card__lang">React</div>
-                <div class="projects projects--card__name"><h3>News Network</h3></div>
-                <div class="projects projects--card__para"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur impedit cum dolorum illo eaque! Harum facilis unde ab sapiente dolor?</p></div>
-                <div class="projects projects--card__buttons">
-                    <button>Code &lt; / &gt;</button>
-                    <button>Preview &lt; / &gt;</button>
-                </div>
-            </div>
-            <div class="projects projects--card">
-                <div class="projects projects--card__pic">
-                    <img src="./assets/media/FE-Project-pic.png" alt="">
-                </div>
-                <div class="projects projects--card__lang">React</div>
-                <div class="projects projects--card__name"><h3>News Network</h3></div>
-                <div class="projects projects--card__para"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur impedit cum dolorum illo eaque! Harum facilis unde ab sapiente dolor?</p></div>
-                <div class="projects projects--card__buttons">
-                    <button>Code &lt; / &gt;</button>
-                    <button>Preview &lt; / &gt;</button>
+                <div class="projects projects--card">
+                    <div class="projects projects--card__pic">
+                        <img src="./assets/media/FE-Project-pic.png" alt="">
+                    </div>
+                    <div class="projects projects--card__lang">React</div>
+                    <div class="projects projects--card__name"><h3>News Network</h3></div>
+                    <div class="projects projects--card__para"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur impedit cum dolorum illo eaque! Harum facilis unde ab sapiente dolor?</p></div>
+                    <div class="projects projects--card__buttons">
+                        <button>Code &lt; / &gt;</button>
+                        <button>Preview &lt; / &gt;</button>
+                    </div>
                 </div>
             </div>
         </div>
@@ -105,11 +106,15 @@
     <footer>
         <div class="footer-container">
             <div class="footer footer--icons">
-                <div class="footer footer--icons__box">
-                    <img src="./assets/media/linkedin-svgrepo-com (1).svg" alt="">
+                <div class="footer footer--icons__box"> 
+                    <a href="https://www.linkedin.com/in/ahmed-hussain-122b33271/">
+                        <img src="./assets/media/linkedin-svgrepo-com (1).svg" alt="">
+                    </a>
                 </div>
                 <div class="footer footer--icons__box">
-                    <img src="./assets/media/github-142-svgrepo-com.svg" alt="">
+                    <a href="https://github.com/Ahuss98">
+                        <img src="./assets/media/github-142-svgrepo-com.svg" alt="">
+                    </a>
                 </div>
                 <div class="footer footer--icons__box">
                     <img src="./assets/media/emails-mail-svgrepo-com.svg" alt="">
@@ -119,4 +124,4 @@
         </div>
     </footer>
 </body>
-</html>
+</html
