@@ -168,6 +168,7 @@ p{
             color: white;
             padding: 20px;
             @include centerFlexColumn;
+            width: 100%;
         }
         .footer{
             &--icons{ 
@@ -241,7 +242,6 @@ p{
             }
         }
         .main-container{
-            max-width: 95vw;
             padding: 30px;
         }
         .intro-container{
