@@ -40,9 +40,8 @@ As I continue to grow as a developer, I plan to:
 
 ## 🤝 Contribution & Feedback
 
-Feel free to explore the project and provide feedback! I look forward to hearing from you and improving this portfolio.
+Feel free to explore the project and provide feedback!
 
 ---
 
-Thank you for visiting! 😊  
-I’m excited to share more updates as I continue to enhance this website.
+Thank you for visiting! 😊 
