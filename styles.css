@@ -5,6 +5,7 @@
 body {
   margin: 0;
   padding: 0;
+  width: 100vw;
 }
 
 p {
@@ -103,6 +104,18 @@ p {
   flex-direction: column;
   padding: 0;
   margin-bottom: 100px;
+}
+
+.text-container {
+  border: 2px solid black;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.title-container {
+  margin-top: 20px;
 }
 
 .projects--card {
