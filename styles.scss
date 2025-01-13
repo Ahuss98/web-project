@@ -192,7 +192,7 @@ p{
 
 @media only screen and (min-width:($mobile + 1)){
     .nav-bar {
-            width: 95vw;
+            width: 100vw;
             @include centerFlex;
             padding: 30px;
             &--container{
@@ -242,7 +242,7 @@ p{
             }
         }
         .main-container{
-            max-width: 95vw;
+            max-width: 100vw;
             padding: 30px;
         }
         .intro-container{

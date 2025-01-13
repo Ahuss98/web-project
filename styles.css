@@ -191,7 +191,7 @@ p {
 
 @media only screen and (min-width: 481px) {
   .nav-bar {
-    width: 95vw;
+    width: 100vw;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -245,7 +245,7 @@ p {
     cursor: pointer;
   }
   .main-container {
-    max-width: 95vw;
+    max-width: 100vw;
     padding: 30px;
   }
   .intro-container {
